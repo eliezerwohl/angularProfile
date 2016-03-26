@@ -1,0 +1,24 @@
+{
+  "name": "angular_profile",
+  "version": "1.0.0",
+  "description": "* You will use Angular to create a Single Page App. * You will use a database to store some content (either MySQL or MongoDB) * You will update your portfolio site using AngularJS * You will have updated and deployed to Heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliezerwohl/angularProfile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliezerwohl/angularProfile/issues"
+  },
+  "homepage": "https://github.com/eliezerwohl/angularProfile#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  }
+}

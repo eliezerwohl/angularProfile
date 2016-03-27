@@ -32,7 +32,7 @@ var projectSchema = new Schema({
     heroku:{
       type:String
     },
-    description : {
+    about: {
       type : String
  
     }
@@ -49,7 +49,7 @@ app.get("/", function(req,res){
 })
 
 app.get("/addProject", function(req, res){
-	  var newItem = new Project({name:"dilly" , github:"tilly" , heroku:"willy" , decription: "silly",});
+	  var newItem = new Project({name:"dilly" , github:"tilly" , heroku:"willy" , about: "silly",});
   newItem.save(function(err, project) {
     if (err) {
       console.log(err);

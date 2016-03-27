@@ -2,8 +2,21 @@ var express = require('express');
 var app = express();
 var logger = require('morgan');
 var mongoose = require('mongoose');
-var db = 'mongodb://localhost/projects';
-mongoose.connect(db);
+
+
+var uristring = process.env.MONGOLAB_URI || 
+  process.env.MONGOHQ_URL || 
+  'mongodb://localhost/projects';
+
+mongoose.connect(uristring, function (err, res) {
+  if (err) { 
+    console.log ('ERROR connecting to: ' + uristring + '. ' + err);
+  } else {
+    console.log ('Succeeded connected to: ' + uristring);
+  }
+});
+
+
 
 var Schema = mongoose.Schema;
 
@@ -19,7 +32,7 @@ var projectSchema = new Schema({
     heroku:{
       type:String
     },
-    description : {
+    about: {
       type : String
  
     }
@@ -36,7 +49,7 @@ app.get("/", function(req,res){
 })
 
 app.get("/addProject", function(req, res){
-	  var newItem = new Project({name:"dilly" , github:"tilly" , heroku:"willy" , decription: "silly",});
+	  var newItem = new Project({name:"dilly" , github:"tilly" , heroku:"willy" , about: "silly",});
   newItem.save(function(err, project) {
     if (err) {
       console.log(err);
@@ -52,7 +65,7 @@ app.get("/addProject", function(req, res){
 
 
 
-var port = 9000;
+var port = process.env.PORT || 9000;
 app.listen(port, function() {
   console.log("listening on port:" + port);
 });

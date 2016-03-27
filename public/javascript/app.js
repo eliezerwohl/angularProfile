@@ -33,8 +33,14 @@ $stateProvider
 
 routerApp.controller('bottomNav', function($scope, $window) {
 var navBottom = angular.element( document.querySelector( '.navBottom' ) );
-var bottomNav = function(){
 var w = $window;
+angular.element($window).on('resize', function( e ) {
+  console.log("resized")
+bottomNav()
+  })
+
+var bottomNav = function(){
+
   if (w.innerWidth > 990) {
       navBottom.addClass('navbar-fixed-bottom');     
       console.log("it's big")

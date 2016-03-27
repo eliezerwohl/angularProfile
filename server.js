@@ -59,9 +59,22 @@ app.get("/addProject", function(req, res){
       res.send(project);
     }
   });
-
-
 })
+
+app.get("/projects", function(req, res){
+
+  Project.find(function(err, docs){
+    if (err){
+      console.log(err);
+      res.send(err);
+    } else {
+    	debugger
+      res.send(docs);
+    }
+  });
+});
+
+
 
 
 

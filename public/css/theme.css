@@ -1,0 +1,58 @@
+.containMain{
+  padding-bottom:20px;
+   padding-top:85px;
+   margin-bottom: 20px;
+}
+@media only screen and (max-width: 990px) {
+  .containMain { 
+    padding-top:85px;
+    padding-bottom:0px;
+   margin-bottom: 10px;
+  }
+}
+.modalFooter{
+  margin-top: 15px
+}
+p {
+  font-size: 1.25em;
+}
+.btn-lg{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.btn-md{
+  margin-bottom:10px;
+  margin-top:10px ;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+img {
+  width: 267px;
+}
+iframe{
+  margin-bottom: 18px;
+}
+
+h3, h2, h4 {
+  text-align: center;
+}
+.navbar-fixed-bottom{
+  margin-top:40px; 
+}
+.navbar-brand-gmail {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  padding-top: 0;
+  margin: auto;
+}
+.centerPicture {
+  text-align: center;
+}
+.contactPicture {
+  margin-left: auto;
+  margin-right: auto;
+  height:40px; 
+  width:40px;
+}

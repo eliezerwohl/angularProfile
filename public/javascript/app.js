@@ -50,6 +50,24 @@ var bottomNav = function(){
       console.log("it's small")
   }
 }
-
 bottomNav();
   })
+
+
+routerApp.controller('project', function($scope, $http) {
+$scope.projectArray = []
+$scope.projects = function() {
+      $http({
+        method: 'GET',
+        url: '/projects'
+      }).then (function (result){
+        debugger
+        angular.forEach(result.data, function (eachOne){
+          $scope.projectArrray.push(eachOne);
+
+        });
+      });
+    };
+
+$scope.projects()
+})

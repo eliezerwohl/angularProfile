@@ -6,28 +6,33 @@ $stateProvider
 // HOME STATES AND NESTED VIEWS ========================================
   .state('home', {
     url: '/home',
-    templateUrl: 'home.html',
-    controller:'bottomNav'
+    templateUrl: 'home.html'
   })
     .state('webCoding', {
     url: '/webCoding',
-    templateUrl: 'webCoding.html',
-    controller:'bottomNav'
+    templateUrl: 'webCoding.html'
   })
     .state('myStory', {
     url: '/myStory',
-    templateUrl: 'myStory.html',
-    controller:'bottomNav'
+    templateUrl: 'myStory.html'
   })
     .state('music', {
     url: '/music',
-    templateUrl: 'music.html',
-    controller:'bottomNav'
+    templateUrl: 'music.html'
   })
     .state('personalTraining', {
     url: '/personalTraining',
-    templateUrl: 'personalTraining.html',
-    controller:'bottomNav'
+    templateUrl: 'personalTraining.html'
+  })
+    .state('portfolio', {
+    url: '/portfolio',
+    templateUrl: 'portfolio.html',
+    controller:"project"
+  })
+    .state('oldProjects', {
+    url: '/oldProjects',
+    templateUrl: 'oldProjects.html',
+    controller:"project"
   })
 })
 
@@ -53,11 +58,8 @@ var bottomNav = function(){
 bottomNav();
   })
 
-
-
-
-
 routerApp.controller('project', function($scope, $http) {
+  debugger
 $scope.projects = [];
 $scope.projectGet = function() {
       $http({

@@ -1,4 +1,4 @@
-var routerApp = angular.module('routerApp', ['ui.bootstrap','ui.router', 'ngAnimate', "ngTouch"]);
+var routerApp = angular.module('routerApp', ['ui.bootstrap','ui.router']);
 
 routerApp.config(function($stateProvider, $urlRouterProvider) {
 $urlRouterProvider.otherwise('/home')

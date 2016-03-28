@@ -20,6 +20,10 @@ $stateProvider
     url: '/music',
     templateUrl: 'music.html'
   })
+     .state('myGear', {
+    url: '/myGear',
+    templateUrl: 'myGear.html'
+  })
     .state('personalTraining', {
     url: '/personalTraining',
     templateUrl: 'personalTraining.html'
@@ -74,3 +78,4 @@ $scope.projectGet = function() {
 
 $scope.projectGet()
 })
+

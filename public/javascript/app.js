@@ -54,20 +54,22 @@ bottomNav();
   })
 
 
+
+
+
 routerApp.controller('project', function($scope, $http) {
-$scope.projectArray = []
-$scope.projects = function() {
+$scope.projects = [];
+$scope.projectGet = function() {
       $http({
         method: 'GET',
         url: '/projects'
       }).then (function (result){
-        debugger
         angular.forEach(result.data, function (eachOne){
-          $scope.projectArrray.push(eachOne);
+          $scope.projects.push(eachOne);
 
         });
       });
     };
 
-$scope.projects()
+$scope.projectGet()
 })

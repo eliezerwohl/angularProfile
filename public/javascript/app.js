@@ -59,7 +59,6 @@ bottomNav();
   })
 
 routerApp.controller('project', function($scope, $http) {
-  debugger
 $scope.projects = [];
 $scope.projectGet = function() {
       $http({

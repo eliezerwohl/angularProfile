@@ -1,4 +1,4 @@
-var routerApp = angular.module('routerApp', ['ui.bootstrap','ui.router', 'ngAnimate', "ngTouch"]);
+var routerApp = angular.module('routerApp', ['ui.bootstrap','ui.router']);
 
 routerApp.config(function($stateProvider, $urlRouterProvider) {
 $urlRouterProvider.otherwise('/home')
@@ -59,7 +59,6 @@ bottomNav();
   })
 
 routerApp.controller('project', function($scope, $http) {
-  debugger
 $scope.projects = [];
 $scope.projectGet = function() {
       $http({

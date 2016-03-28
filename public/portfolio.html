@@ -1,4 +1,4 @@
-this is where teh portfolio will go
+<!-- this is where teh portfolio will go
 
 miriam's memories
 king of dice:
@@ -11,3 +11,33 @@ Miriam's Memories:
 
 
 google script might not seem like much, but I whipped it up in a afternoon after never even looking at single document before hand.  The result of debugging and reading documents.
+ -->
+<div class="col-md-3 colimg">
+  <p class="centerPicture">
+  	<img id="profile" src="/img/computer.jpg">
+  </p>
+</div>
+<div class="col-md-9"> 
+	<div class="row" ng-repeat="project in projects | filter:{portfolio:true}">
+	 	<div class="panel panel-default">
+	 		<div class="panel-heading">
+	 			<h4> {{project.name}} <h4> 
+	 		</div>
+	 		<div class="panel-body">
+	 			<p>{{project.about}} </p>
+	 			<a href="{{project.heroku}}">
+	 				<button class="btn btn-default btn-md">Deployed On Heroku </button>
+	 			</a> 
+	 			<a href="{{project.github}}"> 
+	 				<button class="btn btn-default btn-md pull-right">Github </button> 
+	 			</a>
+	 		</div>
+	 	</div>
+	</div>
+	<a ui-sref="webCoding">
+		<button class="pull-left btn btn-md btn-default col-md-4"> back</button>
+	</a>
+	<a ui-sref="oldProjects">
+		<button class="pull-right btn-md btn btn-default col-md-4"> older projects </button>
+	</a>
+</div>

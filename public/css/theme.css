@@ -20,11 +20,11 @@ p {
   margin-top:10px;
   margin-bottom:10px;
 }
-.btn-md{
+/*.btn-md{
   margin-bottom:10px;
   margin-top:10px ;
     box-shadow: 10px 10px 5px #888888;
-}
+}*/
 
 img {
   width: 267px;
@@ -42,7 +42,6 @@ h3, h2, h4 {
 .navbar-brand-gmail {
   position: absolute;
   width: 100%;
-  left: 0;
   text-align: center;
   padding-top: 0;
   margin: auto;

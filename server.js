@@ -37,7 +37,7 @@ var projectSchema = new Schema({
 		type: String
 	},
 	number:Number,
-	portfolio:{type:boolean, default:false}
+	portfolio:{type:Boolean, default:false}
 });
 
 var Project = mongoose.model('Project', projectSchema);

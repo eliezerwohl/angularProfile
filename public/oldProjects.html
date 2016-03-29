@@ -1,2 +1,26 @@
-Some people say it takes 10,000 hours to master a skill.  I don't like to put a time limit on it.
-
+<div class="col-md-3 colimg">
+  <p class="centerPicture">
+  	<img id="profile" src="/img/computer.jpg">
+  </p>
+</div>
+<div class="col-md-9"> 
+	<div class="row" ng-repeat="project in projects | filter:{portfolio:false}">
+	 	<div class="panel panel-default">
+	 		<div class="panel-heading">
+	 			<h4> {{project.name}} <h4> 
+	 		</div>
+	 		<div class="panel-body">
+	 			<p>{{project.about}} </p>
+	 			<a href="{{project.heroku}}">
+	 				<button class="btn btn-info col-md-4 btn-md">Deployed</button>
+	 			</a> 
+	 			<a href="{{project.github}}"> 
+	 				<button class="btn btn-primary	 col-md-4 btn-md pull-right">Github </button> 
+	 			</a>
+	 		</div>
+	 	</div>
+	</div>
+	<a ui-sref="portfolio">
+		<button class="pull-right btn btn-md btn-default col-md-4">Back</button>
+	</a>
+</div>

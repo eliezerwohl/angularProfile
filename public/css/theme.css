@@ -13,6 +13,8 @@
 .modalFooter{
   margin-top: 15px
 }
+
+
 p {
   font-size: 1.25em;
 }
@@ -48,6 +50,7 @@ h3, h2, h4 {
 }
 .centerPicture {
   text-align: center;
+  min-height: 350px;
 }
 .contactPicture {
   margin-left: auto;

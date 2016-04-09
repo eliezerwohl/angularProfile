@@ -3,19 +3,17 @@
   	<img id="profile" src="/img/computer.jpg">
   </p>
 </div>
-<div class="col-md-9"> 
-	<div class="row" ng-repeat="project in projects | filter:{portfolio:false}">
+<div class="col-md-offset-1 col-md-7"> 
+	<h4>All my projects are listed here, in the order in which they were created. </h4>
+	<h4>I have made all of them available to show my improvement </h4>
+	<div class="row" ng-repeat="project in oldProjects">
 	 	<div class="panel panel-default">
 	 		<div class="panel-heading">
-	 			<h4> {{project.name}} <h4> 
+	 			<h4> {{project.text}} <h4> 
 	 		</div>
-	 		<div class="panel-body">
-	 			<p>{{project.about}} </p>
-	 			<a href="{{project.heroku}}">
-	 				<button class="btn btn-info col-md-4 btn-md">Deployed</button>
-	 			</a> 
-	 			<a href="{{project.github}}"> 
-	 				<button class="btn btn-primary	 col-md-4 btn-md pull-right">Github </button> 
+	 		<div class="panel-body" >
+	 			<a target="_blank" href="{{project.link}}"> 
+	 				<div class="col-md-4 col-md-offset-4"><button class="btn btn-primary	 col-md-4 btn-block btn-md">Deployed </button> </div>
 	 			</a>
 	 		</div>
 	 	</div>

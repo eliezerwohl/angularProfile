@@ -64,6 +64,14 @@ bottomNav();
 
 routerApp.controller('project', function($scope, $http) {
 $scope.projects = [];
+$scope.oldProjects  = [
+    {text:"First Game:Click On Carmack", link:"https://evening-beyond-7392.herokuapp.com/"}, 
+    {text:"To-Do List", link:"https://fathomless-cliffs-4838.herokuapp.com"},  
+    {text:"Tri State Hotels", link:"https://evening-beyond-7392.herokuapp.com"},
+    {text:"Rocks Paper Scissor", link:"http://tiger-rpc.herokuapp.com/"},
+    {text:"To-Go List", link:"http://to-go-list.herokuapp.com"},
+    {text:"Node.JS calculator", link:"https://github.com/eliezerwohl/Node.jsCalc"} 
+    ]
 $scope.projectGet = function() {
       $http({
         method: 'GET',

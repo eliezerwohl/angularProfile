@@ -50,23 +50,6 @@ app.get("/", function(req, res) {
 	res.sendFile(process.cwd() + "/public/index.html")
 })
 
-app.get("/addProject", function(req, res) {
-	var newItem = new Project({
-		name: "dilly",
-		github: "tilly",
-		heroku: "willy",
-		about: "silly",
-	});
-	newItem.save(function(err, project) {
-		if (err) {
-			console.log(err);
-			res.send(err);
-		} else {
-			
-			res.send(project);
-		}
-	});
-})
 
 app.get("/projects", function(req, res) {
 

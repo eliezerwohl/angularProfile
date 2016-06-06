@@ -52,14 +52,27 @@ h3, h2, h4 {
   text-align: center;
   min-height: 350px;
 }
+
+.spin{animation:w3-spin .6s  linear;-webkit-animation:w3-spin .6s  linear}
+@-webkit-keyframes w3-spin{
+0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+@keyframes w3-spin{
+0%{-webkit-transform:rotate(0deg);transform: rotate(0deg)}
+100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+
 .contactPicture {
   margin-left: auto;
   margin-right: auto;
   height:40px; 
   width:40px;
 }
+.customPanel{
+background-color: darkblue;
+padding:10px;
+}
 
-.zoom {-webkit-animation:animatezoom 0.6s;animation:animatezoom 0.6s}
+.zoom {-webkit-animation:animatezoom 0.4s;animation:animatezoom 0.4s}
 @-webkit-keyframes animatezoom{from{-webkit-transform:scale(0)} to{-webkit-transform:scale(1)}}
 @keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
 

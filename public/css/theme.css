@@ -1,7 +1,44 @@
+.navbar-brand {
+    font-size: 2.5em;
+     font-weight: 800;
+
+}
+.nav li a {
+  font-size: 1.5em;
+  font-weight: 600;
+background: #f8ffe8;
+background: -moz-linear-gradient(top,  #f8ffe8 0%, #e3f5ab 33%, #b7df2d 100%);
+background: -webkit-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%);
+background: linear-gradient(to bottom,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=0 );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav li a:hover{
+
+  -webkit-text-fill-color:white ;
+}
+
+h3, h2 {
+  font-size: 3em;
+}
+h1 {
+  font-size: 3em;
+}
+
+.jumbotron {
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+
+}
 .containMain{
   padding-bottom:20px;
-   padding-top:85px;
-   margin-bottom: 25px;
+   padding-top:40px;
+
 }
 @media only screen and (max-width: 990px) {
   .containMain { 

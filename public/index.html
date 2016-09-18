@@ -10,9 +10,9 @@
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
     
 </head>
-<body ng-app="routerApp">
-<nav class=" fadeIn navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
+
+<!-- <nav class=" fadeIn navbar navbar-inverse navbar-fixed-top">
+    <div class=" pretty container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
           <span class="sr-only">Toggle navigation</span>
@@ -20,23 +20,53 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-           <a class="navbar-brand" ui-sref="home">EliezerWohl.com</a>
+           <a class="navbar-brand col-md-12" ui-sref="home">EliezerWohl.com</a>
       </div>
        <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'" ng-click="navCollapsed=true">
+<<<<<<< HEAD
       
         <ul class="nav navbar-nav navbar-left">
           <li><a ui-sref="myStory">My Story</a></li>
         <li><a ui-sref="webCoding">Web Development</a></li>
         <li><a ui-sref="personalTraining">Personal Training</a></li>
+=======
+
+        <ul class="col-md-12 nav navbar-nav navbar-right ">
+       
+          <li><a ui-sref="myStory">Story</a></li>
+        <li><a ui-sref="webCoding">Technology</a></li>
+        <li><a ui-sref="personalTraining">Portfolio</a></li>
+>>>>>>> 2b82d06efce97cfd10c1cbf500944183c358dfbd
         <li><a ui-sref="music">Music</a></li>
+        <li><a ui-sref="music">Contact Me</a></li>
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
+<body ng-app="routerApp">
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>    
+    <a class="navbar-brand" href="#">EliezerWohl.com</a>
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-right">
+       <li><a ui-sref="myStory">Story</a></li>
+        <li><a ui-sref="webCoding">Technology</a></li>
+        <li><a ui-sref="personalTraining">Portfolio</a></li>
+        <li><a ui-sref="music">Music</a></li>
+        <li><a ui-sref="music">Contact Me</a></li>
+    </ul>
+  </div>
+</nav>
 <div class="container-fluid containMain">
     <div ui-view autoscroll="false"></div>
 </div>
-<div ng-controller="bottomNav">
+<!-- <div ng-controller="bottomNav">
 <div class="nav navbar-inverse navBottom">
    <div class="container">
       <div class="row">
@@ -55,7 +85,7 @@
       </div>    
     </div>
   </div>
-</div>
+</div> -->
 </div>
 <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.1.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>

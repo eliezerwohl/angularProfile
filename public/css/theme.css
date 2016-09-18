@@ -1,7 +1,50 @@
+.navbar-brand {
+    font-size: 2em;
+     font-weight: 500;
+}
+
+.white {
+  color: white;
+}
+.navbar-inverse {
+  margin-bottom: 0px;
+  border-radius:0px;
+}
+
+div.container-fluid {
+  padding: 0px;
+  margin-top: 0px
+}
+
+.storyHeader {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/code.jpg");
+          background-size: cover;
+          min-height: 200px;
+}
+.nav li a {
+  font-size: 1.25em;
+  font-weight: 400;
+
+}
+
+
+.storyHeader h2 {
+  font-size: 100px;
+  margin-top: 0px;
+}
+
+h1, h2, h3, h4{
+  font-size: 2em; 
+}
+
+
 .containMain{
-  padding-bottom:20px;
-   padding-top:85px;
-   margin-bottom: 25px;
+   padding-top:20px;
+
+}
+
+.home{
+  margin-top: 40px;
 }
 @media only screen and (max-width: 990px) {
   .containMain { 

@@ -1,40 +1,50 @@
 .navbar-brand {
-    font-size: 2.5em;
-     font-weight: 800;
+    font-size: 2em;
+     font-weight: 500;
+}
 
+.white {
+  color: white;
+}
+.navbar-inverse {
+  margin-bottom: 0px;
+  border-radius:0px;
+}
+
+div.container-fluid {
+  padding: 0px;
+  margin-top: 0px
+}
+
+.storyHeader {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/code.jpg");
+          background-size: cover;
+          min-height: 200px;
 }
 .nav li a {
-  font-size: 1.5em;
-  font-weight: 600;
-background: #f8ffe8;
-background: -moz-linear-gradient(top,  #f8ffe8 0%, #e3f5ab 33%, #b7df2d 100%);
-background: -webkit-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%);
-background: linear-gradient(to bottom,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=0 );
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.nav li a:hover{
-
-  -webkit-text-fill-color:white ;
-}
-
-h3, h2 {
-  font-size: 3em; 
-}
-h1 {
-  font-size: 3em;
-}
-
-.jumbotron {
-
+  font-size: 1.25em;
+  font-weight: 400;
 
 }
+
+
+.storyHeader h2 {
+  font-size: 100px;
+  margin-top: 0px;
+}
+
+h1, h2, h3, h4{
+  font-size: 2em; 
+}
+
+
 .containMain{
    padding-top:20px;
 
+}
+
+.home{
+  margin-top: 40px;
 }
 @media only screen and (max-width: 990px) {
   .containMain { 

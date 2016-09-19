@@ -24,6 +24,10 @@ $stateProvider
     url: '/myGear',
     templateUrl: 'myGear.html'
   })
+          .state('links', {
+    url: '/links',
+    templateUrl: 'links.html'
+  })
     .state('personalTraining', {
     url: '/personalTraining',
     templateUrl: 'personalTraining.html'

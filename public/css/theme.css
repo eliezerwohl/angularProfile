@@ -24,6 +24,12 @@ div.container-fluid {
           background-size: cover;
           min-height: 200px;
 }
+
+.musicBanner {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/rickLong.png");
+          background-size: cover;
+         min-height: 250px
+}
 .nav li a {
   font-size: 1.25em;
   font-weight: 400;
@@ -48,6 +54,10 @@ h1, h2, h3, h4{
 
 .home{
   margin-top: 40px;
+}
+
+.music h4 { 
+  font-size: 1.5em;
 }
 @media only screen and (max-width: 990px) {
   .containMain { 

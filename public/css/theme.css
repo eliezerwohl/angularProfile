@@ -3,6 +3,13 @@
      font-weight: 500;
 }
 
+.musicBanner h2 {
+  font-size: 100px;
+  margin-top: 0px;
+  font-weight: 600;
+float:none;
+margin:0 auto
+}
 .customP {
   font-size: 1.5em
 }
@@ -25,10 +32,14 @@ div.container-fluid {
           min-height: 200px;
 }
 
+
 .musicBanner {
   background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/rickLong.png");
           background-size: cover;
-         min-height: 250px
+         height: 200px;
+          display: flex;
+  align-items: center;
+
 }
 .nav li a {
   font-size: 1.25em;

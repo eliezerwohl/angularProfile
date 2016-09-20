@@ -40,6 +40,13 @@ div.container-fluid {
   align-items: center;
 }
 
+.social .socialContainer {
+  margin-top: 10px
+}
+.image-holder img {
+  height:70px;
+  width: 70px;
+}
 
 .musicBanner {
   background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/rickLong.png");

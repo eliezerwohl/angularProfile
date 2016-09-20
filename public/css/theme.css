@@ -47,20 +47,26 @@ div.container-fluid {
 
   margin-top: 15px;
   background-color:lightgray;
-  padding:15px 0px;
-     box-shadow: 10px 10px 5px #888888;
+    border:3px lightgray solid;
+  padding:5px 0px;
+     box-shadow: 8px 8px 3px #888888;
 }
 
 
 
 .social .socialContainer:hover {
   background-color: white;
-  border:3px lightgray solid;
+/*  border:3px lightgray solid;*/
 
 }
+
+.social .socialContainer:active {
+  box-shadow: none;
+}
+
 .image-holder img {
-  height:70px;
-  width: 70px;
+  height:65px;
+  width: 65px;
 }
 
 .musicBanner {
@@ -102,7 +108,7 @@ h1, h2, h3, h4{
 }
   
 .social .socialContainer h4 {
-  font-size: 45px;
+  font-size: 40px;
   padding:0px 0px 5px 0px;
   margin:0px;
   line-height:0;
@@ -110,14 +116,7 @@ h1, h2, h3, h4{
 
 }
 
-.social .socialContainer h3 {
-  font-size: 30px;
-  padding:15px 0px 0px 0px;
-  margin:0px;
-    line-height:1;
-   /* color:dimgray;*/
-/*  color: black*/
-}
+
 
 .music h4 { 
   font-size: 1.5em;

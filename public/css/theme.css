@@ -116,9 +116,14 @@ h1, h2, h3, h4{
 
 }
 
+.story .storyContainer {
+  margin-top: 15px;
+}
+.story .storyContainer p {
+  font-size: 22px;
+}
 
-
-.music .description h4 { 
+.music .description p { 
   color:#555555;
   font-size: 1.5em;
   padding:15px 0px;

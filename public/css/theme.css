@@ -46,8 +46,8 @@ div.container-fluid {
 .social .socialContainer {
 
   margin-top: 15px;
-  background-color:lightgray;
-    border:3px lightgray solid;
+  background-color:#eeeeee;
+    border:3px solid #eeeeee;
   padding:5px 0px;
      box-shadow: 8px 8px 3px #888888;
 }
@@ -118,8 +118,18 @@ h1, h2, h3, h4{
 
 
 
-.music h4 { 
+.music .description h4 { 
+  color:#555555;
   font-size: 1.5em;
+  padding:15px 0px;
+}
+
+.music .musicHolder {
+  background-color: #eeeeee;
+}
+
+.music .musicHolder iframe {
+  margin:10px 0px;
 }
 @media only screen and (max-width: 990px) {
   .containMain { 

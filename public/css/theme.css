@@ -38,6 +38,7 @@ div.container-fluid {
           min-height: 200px;
              display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .social a {
@@ -45,7 +46,7 @@ div.container-fluid {
 }
 .social .socialContainer {
 
-  margin-top: 15px;
+  margin-bottom: 15px;
   background-color:#eeeeee;
     border:3px solid #eeeeee;
   padding:5px 0px;
@@ -117,7 +118,8 @@ h1, h2, h3, h4{
 }
 
 .story .storyContainer {
-  margin-top: 15px;
+  margin-top: 10px;
+
 }
 .story .storyContainer p {
   font-size: 22px;
@@ -126,7 +128,7 @@ h1, h2, h3, h4{
 .music .description p { 
   color:#555555;
   font-size: 1.5em;
-  padding:15px 0px;
+  padding:20px 0px;
 }
 
 .music .musicHolder {

@@ -82,8 +82,10 @@ div.container-fluid {
 
 #portfolio .panel-body h4 {
   text-transform: uppercase;
+}
 
-
+#portfolio .panel-body button {
+  
 }
 
 #portfolio .portSection {

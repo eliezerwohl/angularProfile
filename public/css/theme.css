@@ -69,6 +69,27 @@ div.container-fluid {
   margin-top: 0px
 }
 
+#portfolio .panel-info {
+  margin-top: 15px;
+  border:0px;
+    border-radius:1px;
+  box-shadow: 0px 0px 0px 8px rgba(47,164,231,0.1)
+}
+
+#portfolio .panel-body {
+  padding-top: 0px;
+}
+
+#portfolio .panel-body h4 {
+  text-transform: uppercase;
+
+
+}
+
+#portfolio .portSection {
+  border-bottom: 1px rgb(221, 221, 221) solid
+}
+
 .storyHeader {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/code.jpg");
           background-size: cover;

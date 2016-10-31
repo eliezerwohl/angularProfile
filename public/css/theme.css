@@ -46,7 +46,7 @@
   transform: scaleY(1);
 }
 
-.musicBanner h2, .linksBanner h2 {
+.musicBanner h2, .linksBanner h2, .banner h2 {
   font-size: 100px;
   margin-top: 0px;
   font-weight: 600;
@@ -74,6 +74,15 @@ div.container-fluid {
           background-size: cover;
           min-height: 200px;
 }
+
+.portfolioBanner {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/galaxy.jpg");
+          background-size: cover;
+          min-height: 200px;
+                    display: flex;
+  align-items: center;
+}
+
 
 .linksBanner {
   background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/chainLink.png");

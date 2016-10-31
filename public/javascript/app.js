@@ -28,18 +28,13 @@ $stateProvider
     url: '/links',
     templateUrl: 'views/links.html'
   })
-    .state('personalTraining', {
-    url: '/personalTraining',
-    templateUrl: 'views/personalTraining.html'
-  })
+  //   .state('personalTraining', {
+  //   url: '/personalTraining',
+  //   templateUrl: 'views/personalTraining.html'
+  // })
     .state('portfolio', {
     url: '/portfolio',
     templateUrl: 'views/portfolio.html',
-    controller:"project"
   })
-    .state('oldProjects', {
-    url: '/oldProjects',
-    templateUrl: 'views/oldProjects.html',
-    controller:"project"
-  })
+
 })

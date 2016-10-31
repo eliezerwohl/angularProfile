@@ -1,5 +1,4 @@
 var routerApp = angular.module('routerApp', ['ui.bootstrap','ui.router']);
-
 routerApp.config(function($stateProvider, $urlRouterProvider) {
 $urlRouterProvider.otherwise('/home')
 $stateProvider
@@ -32,5 +31,4 @@ $stateProvider
     url: '/portfolio',
     templateUrl: 'views/portfolio.html',
   })
-
 })

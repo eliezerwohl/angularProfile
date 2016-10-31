@@ -1,6 +1,6 @@
 .navbar-brand {
-    font-size: 2em;
-     font-weight: 500;
+  font-size: 2em;
+  font-weight: 500;
 }
 
 .hvr-sweep-to-bottom {
@@ -50,8 +50,8 @@
   font-size: 100px;
   margin-top: 0px;
   font-weight: 600;
-float:none;
-margin:0 auto
+  float:none;
+  margin:0 auto;
 }
 .customP {
   font-size: 1.5em
@@ -66,14 +66,14 @@ margin:0 auto
 
 div.container-fluid {
   padding: 0px;
-  margin-top: 0px
+  margin-top: 0px;
 }
 
 #portfolio .panel-info {
   margin-top: 15px;
   border:0px;
-    border-radius:1px;
-  box-shadow: 0px 0px 0px 8px rgba(47,164,231,0.1)
+  border-radius:1px;
+  box-shadow: 0px 0px 0px 8px rgba(47,164,231,0.1);
 }
 
 #portfolio .panel-body {
@@ -85,7 +85,7 @@ div.container-fluid {
 }
 
 #portfolio .panel-body button {
-  
+
 }
 
 #portfolio .portSection {
@@ -94,46 +94,40 @@ div.container-fluid {
 
 .storyHeader {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/code.jpg");
-          background-size: cover;
-          min-height: 200px;
+  background-size: cover;
+  min-height: 200px;
 }
 
 .portfolioBanner {
   background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/galaxy.jpg");
-          background-size: cover;
-          min-height: 200px;
-                    display: flex;
+  background-size: cover;
+  min-height: 200px;
+  display: flex;
   align-items: center;
 }
 
-
 .linksBanner {
   background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/chainLink.png");
-          background-size: cover;
-          min-height: 200px;
-             display: flex;
+  background-size: cover;
+  min-height: 200px;
+  display: flex;
   align-items: center;
   margin-bottom: 30px;
 }
 
 .social a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .social .socialContainer {
-
+  background-color: white;
   margin-bottom: 15px;
-  background-color:#eeeeee;
-    border:3px solid #eeeeee;
+  border:3px solid #eeeeee;
+  border-radius: 5px;
   padding:5px 0px;
-     box-shadow: 8px 8px 3px #888888;
 }
 
-
-
 .social .socialContainer:hover {
-  background-color: white;
-/*  border:3px lightgray solid;*/
-
+  background-color:#eeeeee;
 }
 
 .social .socialContainer:active {
@@ -147,16 +141,14 @@ div.container-fluid {
 
 .musicBanner {
   background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/rickLong.png");
-          background-size: cover;
-         height: 200px;
-          display: flex;
+  background-size: cover;
+  height: 200px;
+  display: flex;
   align-items: center;
-
 }
 .nav li a {
   font-size: 1.25em;
   font-weight: 400;
-
 }
 
 
@@ -172,14 +164,13 @@ h1, h2, h3, h4{
 
 .containMain{
    padding-top:20px;
-
 }
 
 .home{
   margin-top: 40px;
 }
 .social .socialContainer {
-    display: flex;
+  display: flex;
   align-items: center;
 }
   
@@ -189,7 +180,6 @@ h1, h2, h3, h4{
   margin:0px;
   line-height:0;
   color:#515A5A;
-
 }
 
 .story .storyContainer {
@@ -224,7 +214,6 @@ h1, h2, h3, h4{
   margin-top: 15px
 }
 
-
 p {
   font-size: 1.25em;
 }
@@ -236,7 +225,7 @@ p {
 img {
   width: 267px;
 }
-iframe{
+iframe {
   margin-bottom: 18px;
 }
 
@@ -273,8 +262,8 @@ h3, h2, h4 {
   width:40px;
 }
 .customPanel{
-background-color: darkblue;
-padding:10px;
+  background-color: darkblue;
+  padding:10px;
 }
 
 .customP{

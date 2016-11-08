@@ -83,7 +83,7 @@ div.container-fluid {
 }
 
 .linksBanner {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/chainLink.png");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../img/socialBanner.png");
   background-size: cover;
   min-height: 200px;
   display: flex;
@@ -116,7 +116,7 @@ div.container-fluid {
 }
 
 .musicBanner {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/rickLong.png");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.75)), url("/img/music.png");
   background-size: cover;
   height: 200px;
   display: flex;

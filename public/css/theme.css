@@ -59,6 +59,10 @@ div.container-fluid {
     padding: 15px 10px;
 }
 
+#linkContainer {
+  padding:15px 10px 0px;
+  margin-top: 30px;
+}
 #portfolio .portSection {
   border-bottom: 1px rgb(221, 221, 221) solid
 }

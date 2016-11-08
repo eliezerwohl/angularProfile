@@ -68,14 +68,14 @@ div.container-fluid {
 }
 
 .storyHeader {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/code.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85)), url("../img/code.jpg");
   background-size: cover;
   min-height: 200px;
   margin-bottom: 40px;
 }
 
 .portfolioBanner {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/galaxy.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.75)), url("../img/galaxy.jpg");
   background-size: cover;
   min-height: 200px;
   display: flex;

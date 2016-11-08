@@ -50,6 +50,10 @@ div.container-fluid {
   background-color: red;
   border:black 33px solid;
 }
+
+.music .musicContainer {
+  margin-top: 40px;
+}
 .storyContainer, .musicContainer, #linkContainer {
     box-shadow: 0px 0px 0px 8px rgba(47,164,231,0.1);
     padding: 15px 10px;
@@ -159,7 +163,7 @@ h1, h2, h3, h4{
 .music .description p { 
   color:#555555;
   font-size: 1.5em;
-  padding:20px 0px;
+  padding:0px 0px;
 }
 
 .music .musicHolder {

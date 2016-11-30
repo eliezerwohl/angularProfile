@@ -202,10 +202,10 @@ h1, h2, h3, h4{
  }
  .social .socialContainer h4 {
   font-size: 28px;
-
  }
 }
 @media only screen and (max-width: 753px) {
+/*  fix for iphone */
 .social .socialContainer h4 {
   font-size: 20px;
   }

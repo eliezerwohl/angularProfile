@@ -184,6 +184,29 @@ h1, h2, h3, h4{
    margin-bottom: 10px;
   }
 }
+@media only screen and (max-width: 990px) {
+  .banner h2{
+    font-size: 80px;
+  }
+
+ .social .socialContainer h4 {
+  font-size: 34px;
+
+ }
+
+}
+@media only screen and (max-width: 768px) {
+  #linkContainer {
+  margin-right: 12px;
+  margin-left: 12px;
+ }
+ .social .socialContainer h4 {
+  font-size: 28px;
+
+ }
+}
+
+
 .modalFooter{
   margin-top: 15px
 }

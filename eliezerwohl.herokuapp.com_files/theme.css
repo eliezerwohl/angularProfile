@@ -196,10 +196,12 @@ h1, h2, h3, h4{
 
 }
 @media only screen and (max-width: 768px) {
-  #linkContainer {
-  margin-right: 12px;
-  margin-left: 12px;
+  .social .linkContainer {
+  margin-right: 5px;
+  margin-left: 5px;
+
  }
+
 }
 
 

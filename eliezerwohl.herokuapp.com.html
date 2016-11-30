@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://eliezerwohl.herokuapp.com/#/links -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./eliezerwohl.herokuapp.com_files/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./eliezerwohl.herokuapp.com_files/theme.css">
+      <!-- JS (load angular, ui-router, and our custom js file) -->
+    <script src="./eliezerwohl.herokuapp.com_files/angular.min.js"></script>
+  </head>
+  <body ng-app="routerApp" class="ng-scope">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>    
+        <a class="navbar-brand" href="http://eliezerwohl.herokuapp.com/#">EliezerWohl.com</a>
+      </div>
+      <div class="navbar-collapse collapse" ng-class="!navCollapsed &amp;&amp; &#39;in&#39;" ng-click="navCollapsed=true">
+        <ul class="nav navbar-nav navbar-right">
+           <li><a ui-sref="myStory" href="http://eliezerwohl.herokuapp.com/myStory">Story</a></li>
+            <li><a ui-sref="portfolio" href="http://eliezerwohl.herokuapp.com/portfolio">Portfolio</a></li>
+            <li><a ui-sref="links" href="http://eliezerwohl.herokuapp.com/links">Social</a></li>
+            <li><a ui-sref="music" href="http://eliezerwohl.herokuapp.com/music">Music</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid containMain">
+      <!-- ui-view-anchor --><div ui-view="" autoscroll="false"><div class="social ng-scope">
+	<div class="banner linksBanner col-md-12">
+		<h2 class="white">Social </h2>
+	</div>
+	<div id="linkContainer" class="col-sm-6 col-sm-offset-3  col-md-6 col-md-offset-3">
+		<a target="_blank" href="https://github.com/eliezerwohl">
+			<div class="col-md-12 socialContainer">
+				<div class="image-holder col-md-4">
+					<img class="png" src="./eliezerwohl.herokuapp.com_files/github.png">
+				</div>
+				<div class="col-md-8">
+					<h4 class="text-left">Github</h4>
+				</div>
+			</div>
+		</a>
+		<a href="mailto:eliezerwohl@gmail.com">
+			<div class="col-md-12 socialContainer">
+				<div class="image-holder col-md-4">
+					<img class="png" src="./eliezerwohl.herokuapp.com_files/gmail.png">
+				</div>
+				<div class="col-md-8">
+					<h4 class="text-left">Email</h4>
+				</div>
+			</div>
+		</a>
+		<a target="_blank" href="https://www.linkedin.com/in/eliezerwohl">
+			<div class="col-md-12 socialContainer">
+				<div class="image-holder col-md-4">
+					<img class="png" src="./eliezerwohl.herokuapp.com_files/linkedin.png">
+				</div>
+				<div class="col-md-8">
+					<h4 class="text-left">Linkedin</h4>
+				</div>
+			</div>
+		</a>
+		<a target="_blank" href="http://stackoverflow.com/users/5510690/eliezer-wohl">
+			<div class="col-md-12 socialContainer">
+				<div class="image-holder col-md-4">
+					<img class="png" src="./eliezerwohl.herokuapp.com_files/stackoverflow.png">
+				</div>
+				<div class="col-md-8">
+					<h4 class="text-left">StackOverflow</h4>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+
+
+</div>
+    </div>
+    <script src="./eliezerwohl.herokuapp.com_files/ui-bootstrap-tpls-0.12.1.min.js"></script>
+    <script src="./eliezerwohl.herokuapp.com_files/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="./eliezerwohl.herokuapp.com_files/angular-animate.min.js"></script>
+    <script src="./eliezerwohl.herokuapp.com_files/angular-touch.min.js"></script>
+    <script src="./eliezerwohl.herokuapp.com_files/app.js"></script>
+  
+</body></html>

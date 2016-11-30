@@ -184,6 +184,14 @@ h1, h2, h3, h4{
    margin-bottom: 10px;
   }
 }
+@media only screen and (max-width: 990px) {
+  .banner h2{
+    font-size: 80px;
+  }
+
+
+}
+
 .modalFooter{
   margin-top: 15px
 }

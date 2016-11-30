@@ -1,5 +1,7 @@
 var express = require('express');
 var app = express();
+var compression = require('compression');
+app.use(compression());
 var logger = require('morgan');
 app.use(logger('dev'));
 app.use(express.static(__dirname + "/public"));

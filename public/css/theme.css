@@ -205,6 +205,11 @@ h1, h2, h3, h4{
 
  }
 }
+@media only screen and (max-width: 753px) {
+.social .socialContainer h4 {
+  font-size: 20px;
+  }
+}
 
 
 .modalFooter{

@@ -200,6 +200,10 @@ h1, h2, h3, h4{
   margin-right: 12px;
   margin-left: 12px;
  }
+ .social .socialContainer h4 {
+  font-size: 28px;
+
+ }
 }
 
 

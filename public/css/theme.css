@@ -1,12 +1,12 @@
 .navbar-brand {
   font-size: 2em;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .musicBanner h2, .linksBanner h2, .banner h2 {
   font-size: 100px;
   margin-top: 0px;
-  font-weight: 600;
+  font-weight: 500;
   float:none;
   margin:0 auto;
 }
@@ -125,7 +125,7 @@ div.container-fluid {
 }
 .nav li a {
   font-size: 1.25em;
-  font-weight: 400;
+  font-weight: 300;
 }
 .storyHeader h2 {
   font-size: 100px;

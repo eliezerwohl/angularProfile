@@ -34,11 +34,9 @@ $stateProvider
 
 })
 routerApp.controller('google', function($rootScope, $location, $window) {
-     console.log("we got the google controller")
-       $window.ga('create', 'UA-89424221-1', 'auto');
-      $rootScope.$on('$stateChangeSuccess', function (event) {
-            $window.ga('send', 'pageview', $location.path());
-        });
-   //  }
-
-})
+  console.log("we got the google controller")
+  $window.ga('create', 'UA-89424221-1', 'auto');
+  $rootScope.$on('$stateChangeSuccess', function (event) {
+    $window.ga('send', 'pageview', $location.path());
+  });
+});

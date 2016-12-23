@@ -1,4 +1,4 @@
-var routerApp = angular.module('routerApp', ['ui.bootstrap','ui.router']);
+var routerApp = angular.module('app', ['ui.bootstrap','ui.router']);
 routerApp.config(function($stateProvider, $urlRouterProvider) {
 $urlRouterProvider.otherwise('/home')
 $stateProvider
@@ -31,4 +31,14 @@ $stateProvider
     url: '/portfolio',
     templateUrl: 'views/portfolio.html',
   })
+
+})
+routerApp.controller('google', function($rootScope, $location, $window) {
+     console.log("we got the google controller")
+       $window.ga('create', 'UA-89424221-1', 'auto');
+      $rootScope.$on('$stateChangeSuccess', function (event) {
+            $window.ga('send', 'pageview', $location.path());
+        });
+   //  }
+
 })
